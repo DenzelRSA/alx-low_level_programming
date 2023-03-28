@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stiod.h>
 
 /**
  * puts2 - Prints every other character of a string
@@ -19,7 +20,7 @@ void puts2(char *str)
 
 	for (i = 0; i < j; i += 2)
 	{
-	_putchar(str[j]);
+	putchar(str[j]);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
