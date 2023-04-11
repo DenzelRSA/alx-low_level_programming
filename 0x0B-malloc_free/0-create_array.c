@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * create array - create an array chars, where 
- * @size is the size of the array, and 
+ * create array - create an array chars,
+ * @size is the size of the array, and
  * @c is the character to fill the array
  *
  * Return: the array filled
