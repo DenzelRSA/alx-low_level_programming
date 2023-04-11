@@ -4,7 +4,7 @@
 /**
  * _strdup - Duplicate a string
  * @str: The string to duplicate
- * 
+ *
  * Return: The string duplicated
  */
 
