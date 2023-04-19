@@ -4,7 +4,7 @@
 /**
  * main - Prints ...
  * @argc: The number of .....
- * @argv: AN array ...
+ * @argv: An array ...
  *
  * Return: Always 0.
  */
@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 		opcode = *(unsigned char *)address;
 		printf("%.2x", opcode);
 
-		if (index == bytes - 3)
+		if (index == bytes - 1)
 			continue;
 		printf(" ");
 
